@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tavish Vats — Aspiring Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+    <!-- Google Fonts: JetBrains Mono & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+
+    <header>
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <span>&gt;</span> tavish.vats
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#about"> About</a></li>
+                <li><a href="#skills"> Skills</a></li>
+                <li><a href="#projects"> Projects</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuToggle" aria-label="Toggle Navigation">
+                <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#about" class="mobile-nav-link"> About</a>
+            <a href="#skills" class="mobile-nav-link"> Skills</a>
+            <a href="#projects" class="mobile-nav-link"> Projects</a>
+            <a href="#contact" class="mobile-nav-link"> Contact</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="hero" style="border-top: none;">
+            <div class="hero-tag">
+                <span>&gt;</span> hello, world!
+            </div>
+            <h1>Tavish Vats</h1>
+            <h2>Aspiring Full-Stack Developer</h2>
+            <p>
+                I'm building my skills one project at a time, turning ideas into real experiences and growing toward a career in full-stack development.
+            </p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View Projects &rarr;</a>
+                <a href="https://github.com/Tavish009vats" target="_blank" rel="noopener noreferrer" class="btn-secondary">GitHub</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="section-title"><span>01.</span> About Me</h2>
+            <div class="dev-card about-text">
+                <p>
+                    I'm Tavish Vats, a BCA student and aspiring Full-Stack Developer with a strong interest in technology and building things with code.
+                </p>
+                <p>
+                    My interest in programming grew when I built a project using Python during my school years. That experience made me realize that I wanted to build a career in technology, which led me to pursue BCA.
+                </p>
+                <p>
+                    I enjoy writing code, solving problems, finding bugs, and most importantly, turning my ideas into real-world projects. Debugging can definitely be frustrating at times, but every error gives me something new to learn.
+                </p>
+                <p>
+                    Right now, I'm focused on strengthening my development skills, exploring new technologies, and building projects along the way. My goal is to grow into a Full-Stack Developer by continuously learning, experimenting, and creating.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="section-title"><span>02.</span> Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-badge">Frontend</span>
+                    </div>
+                    <div class="skill-level">
+                        <span class="dot"></span> Good
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-badge">Frontend</span>
+                    </div>
+                    <div class="skill-level">
+                        <span class="dot"></span> Comfortable
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-badge">Frontend</span>
+                    </div>
+                    <div class="skill-level">
+                        <span class="dot dot-beginner"></span> Beginner
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-badge">Backend</span>
+                    </div>
+                    <div class="skill-level">
+                        <span class="dot"></span> Good
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="skill-name">MySQL</span>
+                        <span class="skill-badge">Database</span>
+                    </div>
+                    <div class="skill-level">
+                        <span class="dot"></span> Good
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <span class="skill-name">Django</span>
+                        <span class="skill-badge">Backend</span>
+                    </div>
+                    <div class="skill-level">
+                        <span class="dot dot-learning"></span> Currently Learning
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title"><span>03.</span> Projects</h2>
+            <div class="projects-grid">
+                <!-- Brew Matrics -->
+                <div class="project-card">
+                    <div class="project-top">
+                        <div class="project-header-row">
+                            <h3 class="project-title">Brew Matrics</h3>
+                            <span class="project-tag-badge">CURRENT PROJECT</span>
+                        </div>
+                        <div class="project-desc">
+                            <p>Brew Matrics started as a simple idea: build an invoice generator and management system for cafés and restaurants.</p>
+                            <p>As I worked on the idea, it grew into a broader concept for helping cafés manage their day-to-day operations and eventually understand their business data more effectively. The long-term vision includes features around sales analysis, business insights, and automation.</p>
+                            <p>Currently, I'm focused on designing and improving the user interface and planning the overall structure of the application. I'm building my frontend skills while gradually working toward the backend implementation.</p>
+                            <div class="project-focus">Current Focus: UI design Application structure Frontend development</div>
+                        </div>
+                    </div>
+                    <div class="project-footer-row">
+                        <div class="tech-stack">
+                            <span class="tech-pill">HTML</span>
+                            <span class="tech-pill">CSS</span>
+                            <span class="tech-pill">JavaScript</span>
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Django</span>
+                            <span class="tech-pill">MySQL</span>
+                        </div>
+                        <div>
+                            <a href="https://github.com/tavishvats/brew-matrics" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="font-size: 13px; padding: 8px 14px;">
+                                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                                GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Railway Management System -->
+                <div class="project-card">
+                    <div class="project-top">
+                        <div class="project-header-row">
+                            <h3 class="project-title">Railway Management System</h3>
+                            <span class="project-tag-badge academic">ACADEMIC PROJECT</span>
+                        </div>
+                        <div class="project-desc">
+                            <p>A command-line railway management system I built as a school project while developing my programming foundation.</p>
+                            <p>The project helped me practice Python through a practical, real-world-style application. I worked with CSV files and Pandas to store and manage passenger and train data, while implementing features such as ticket reservation, cancellation, passenger search, train information management, and food ordering with bill calculation.</p>
+                            <p>More than just a school project, this was an important step in my development journey. Seeing the complete application working gave me the confidence that I could turn an idea into a working program—and it was one of the experiences that made me want to pursue a career as a Full-Stack Developer.</p>
+                        </div>
+                    </div>
+                    <div class="project-footer-row">
+                        <div class="tech-stack">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Pandas</span>
+                            <span class="tech-pill">CSV</span>
+                        </div>
+                        <div>
+                            <a href="https://github.com/tavishvats/railway-management-system" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="font-size: 13px; padding: 8px 14px;">
+                                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                                GitHub Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" style="margin-bottom: 40px;">
+            <h2 class="section-title"><span>04.</span> Contact</h2>
+            <div class="contact-card">
+                <div>
+                    <h3 style="font-family: 'JetBrains Mono', monospace; font-size: 1.5rem; margin-bottom: 12px;">Let's Connect</h3>
+                    <p style="color: var(--secondaryText); font-size: 1rem; line-height: 1.6;">
+                        Have a question, want to talk about a project, or just want to connect? Feel free to reach out.
+                    </p>
+                </div>
+
+                <div class="contact-info-list">
+                    <div class="contact-item">
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:tavishvats.dev@gmail.com" class="contact-val">tavishvats.dev@gmail.com</a>
+                        </div>
+                        <a href="mailto:tavishvats.dev@gmail.com" class="contact-action">Send Email &rarr;</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div>
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-val" style="color: var(--secondaryText);">View my projects and development journey.</span>
+                        </div>
+                        <a href="https://github.com/Tavish009vats" target="_blank" rel="noopener noreferrer" class="contact-action">Open Profile &rarr;</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div>
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-val" style="color: var(--secondaryText);">Connect with me professionally.</span>
+                        </div>
+                        <a href="https://www.linkedin.com/in/tavish-vats-70306341a/" target="_blank" rel="noopener noreferrer" class="contact-action">Connect &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            © 2026 Tavish Vats
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
